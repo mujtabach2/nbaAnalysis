@@ -30,7 +30,7 @@ pip install -r requirements.txt
 ## Usage
 
 1. Run the Streamlit app:
-streamlit run nba_lineup_analysis.py
+streamlit run main.py
 
 2. On the web application, select the desired NBA team and a lineup from the available options.
 
