@@ -20,17 +20,29 @@ The NBA Lineup Analysis Tool is a web application built using Streamlit to analy
 ## Installation
 
 1. Clone the repository:
+```
 git clone https://github.com/mujtabach2/nbaAnalysis.git
+```
 
 2. Install the required Python packages:
+```
 pip install -r requirements.txt
+```
 
-3. Download the NBA lineup dataset 'NBALineup2021.csv' and place it in the project folder.
+3. Download the NBA lineup dataset 'NBALineup2021.csv' and place it in the project folder. You can alter the lineup year by changing this line accordingly in `data.py`:
+```
+def get_lineups(team_id_i);
+  ...
+  season = "2021-22",
+  ...
+```
 
 ## Usage
 
 1. Run the Streamlit app:
+```
 streamlit run main.py
+```
 
 2. On the web application, select the desired NBA team and a lineup from the available options.
 
