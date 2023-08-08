@@ -16,7 +16,7 @@ The NBA Lineup Analysis Tool is a web application built using Streamlit to analy
 - Text-to-speech functionality for player names and lineup details.
 - Comparison of two teams based on user-selected performance metrics.
 
-# Website Link: https://nbaanalysis-jd6oodyc3uurmtwm5euidk.streamlit.app/
+## Website Link: https://nbaanalysis-jd6oodyc3uurmtwm5euidk.streamlit.app/
 ## Installation
 
 1. Clone the repository:
