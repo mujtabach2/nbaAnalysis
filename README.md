@@ -1,6 +1,6 @@
 # NBA Lineup Analysis Tool
 
-![NBA Lineup Analysis]()
+![NBA Lineup Analysis](imgs/img1.jpg)
 
 ## Description
 
