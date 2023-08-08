@@ -132,8 +132,6 @@ def analysis(df_lineup1, df_team1, team1, players1, player_ids1, df, sort_value)
         fig_blk.add_vline(x=pd.Series(df_important['BLK']).values[0], line_color='red')
         st.plotly_chart(fig_blk, use_container_width=True)
    
-
-    # ... (rest of your code)
     st.write("## Advanced Stats")
     # Advanced Stats
     selected_player1 = st.selectbox(

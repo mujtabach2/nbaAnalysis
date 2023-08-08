@@ -37,9 +37,8 @@ roster1 = duplicate_roster1.unique()
 roster1_selected = st.selectbox(
     f'Select players from {team1}:',
     roster1)
-    # roster1_selected.append(name)
 
-#roster1_selected=roster1_selected.split(', ')
+
 
 df_lineup1 = df_team1[df_team1['players_list'].apply(lambda x: set(x) == set(roster1_selected))]
 
@@ -54,11 +53,6 @@ for index, row in df.iterrows():
         player_id = player_ids[i]
         player_id_mapping[player_name] = player_id
 
-# ... (rest of your code)
-
-# Clean up roster1 and roster2
-
-
 player_ids1 = {}
 
 
@@ -66,7 +60,6 @@ player_ids1 = {}
 for player_name in roster1_cleaned:
     if player_name in player_id_mapping:
         player_ids1[player_name] = player_id_mapping[player_name]
-
 
 
 
